@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/frag_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/coordinator"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true">
+
+            <LinearLayout
+                android:id="@+id/bottom_Nav_Bar"
+                android:layout_width="300dp"
+                android:layout_height="55dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/nav_bar_corners"
+                android:elevation="8dp">
+
+                <ImageButton
+                    android:id="@+id/image_button_reservation"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="30dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    app:srcCompat="@drawable/ic_booking_black"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <ImageButton
+                    android:id="@+id/image_button_profile"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:clickable="true"
+                    app:srcCompat="@drawable/ic_line_chart_black"
+                    tools:ignore="VectorDrawableCompat" />
+
+            </LinearLayout>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_add_company"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="#163474"
+                android:src="@drawable/ic_baseline_add_24"
+                app:elevation="10dp" />
+        </RelativeLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <!--    <androidx.fragment.app.FragmentContainerView-->
+    <!--        android:id="@+id/fragment_container_view"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+
+    <!--    <RelativeLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent">-->
+
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/image"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="100dp"-->
+    <!--            android:scaleType="fitXY"-->
+    <!--            android:src="@drawable/hema"-->
+    <!--            tools:ignore="MissingConstraints" />-->
+
+    <!--        <TextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_centerHorizontal="true"-->
+    <!--            android:layout_marginTop="25dp"-->
+    <!--            android:text="الخدمات المتوفرة"-->
+    <!--            android:textColor="#163474"-->
+    <!--            android:textSize="30sp"-->
+    <!--            android:textStyle="bold" />-->
+
+
+    <!--        <ProgressBar-->
+    <!--            android:id="@+id/progress_circle"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_centerInParent="true"-->
+    <!--            tools:ignore="MissingConstraints" />-->
+
+
+    <!--        <androidx.recyclerview.widget.RecyclerView-->
+    <!--            android:id="@+id/recycler_view"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:layout_below="@+id/image"-->
+    <!--            android:layout_gravity="center_horizontal"-->
+    <!--            android:foregroundGravity="center"-->
+    <!--            android:paddingLeft="10dp"-->
+    <!--            android:paddingTop="10dp"-->
+    <!--            android:paddingRight="10dp"-->
+    <!--            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"-->
+    <!--            app:spanCount="2" />-->
+
+    <!--        <RelativeLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="100dp"-->
+    <!--            android:layout_alignParentBottom="true"-->
+    <!--            android:layout_centerInParent="true">-->
+
+    <!--            <LinearLayout-->
+    <!--                android:id="@+id/bottom_Nav_Bar"-->
+    <!--                android:layout_width="300dp"-->
+    <!--                android:layout_height="50dp"-->
+    <!--                android:layout_alignParentBottom="true"-->
+    <!--                android:layout_centerHorizontal="true"-->
+    <!--                android:layout_marginLeft="15dp"-->
+    <!--                android:layout_marginRight="15dp"-->
+    <!--                android:layout_marginBottom="15dp"-->
+    <!--                android:background="@drawable/nav_bar_corners"-->
+    <!--                android:elevation="4dp">-->
+
+    <!--                <ImageButton-->
+    <!--                    android:id="@+id/image_button_reservation"-->
+    <!--                    android:layout_width="0dp"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:layout_marginRight="30dp"-->
+    <!--                    android:layout_weight="1"-->
+    <!--                    android:background="@null"-->
+    <!--                    app:srcCompat="@drawable/ic_booking"-->
+    <!--                    tools:ignore="VectorDrawableCompat" />-->
+
+    <!--                <ImageButton-->
+    <!--                    android:id="@+id/image_button_profile"-->
+    <!--                    android:layout_width="0dp"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:layout_marginLeft="30dp"-->
+    <!--                    android:layout_weight="1"-->
+    <!--                    android:background="@null"-->
+    <!--                    android:clickable="true"-->
+    <!--                    app:srcCompat="@drawable/ic_profile"-->
+    <!--                    tools:ignore="VectorDrawableCompat" />-->
+
+    <!--            </LinearLayout>-->
+
+    <!--            <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+    <!--                android:id="@+id/fab_add_company"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_centerHorizontal="true"-->
+    <!--                android:layout_marginTop="5dp"-->
+    <!--                android:backgroundTint="#163474"-->
+    <!--                android:src="@drawable/ic_add"-->
+    <!--                app:elevation="10dp" />-->
+
+    <!--            &lt;!&ndash;            <com.google.android.material.floatingactionbutton.FloatingActionButton&ndash;&gt;-->
+    <!--            &lt;!&ndash;                android:id="@+id/fab_add_company"&ndash;&gt;-->
+    <!--            &lt;!&ndash;                android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--            &lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--            &lt;!&ndash;                android:layout_alignParentBottom="true"&ndash;&gt;-->
+    <!--            &lt;!&ndash;                android:layout_centerInParent="true"&ndash;&gt;-->
+    <!--            &lt;!&ndash;                android:layout_marginBottom="20dp"&ndash;&gt;-->
+    <!--            &lt;!&ndash;                android:backgroundTint="#163474"&ndash;&gt;-->
+    <!--            &lt;!&ndash;                android:src="@drawable/ic_add"&ndash;&gt;-->
+    <!--            &lt;!&ndash;                app:borderWidth="0dp"&ndash;&gt;-->
+    <!--            &lt;!&ndash;                />&ndash;&gt;-->
+
+
+    <!--        </RelativeLayout>-->
+
+
+    <!--    </RelativeLayout>-->
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/edit_text_window_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/button_add_time"
+        android:layout_toRightOf="@+id/button_add_time"
+        android:gravity="center_vertical"
+        android:hint="Number of window" />
+
+    <Button
+        android:id="@+id/button_add_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:text="time" />
+    <TextView
+        android:id="@+id/text_view_show_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time "
+        android:layout_below="@+id/button_add_time"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="10dp"/>
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/button_add_time"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:gravity="center">-->
+
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/text_view_no_window"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="الشباك "-->
+        <!--            />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/no_window"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="#4" -->
+        <!--            />-->
+
+
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/time"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="10.30"-->
+        <!--            android:layout_below="@+id/no_window"/>-->
+
+<!--    </RelativeLayout>-->
+
+
+</RelativeLayout>
+
+
+
+
+

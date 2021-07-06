@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "460966006824",
+    "project_id": "engaz-admin",
+    "storage_bucket": "engaz-admin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460966006824:android:50df87a0e4efe35e5c251d",
+        "android_client_info": {
+          "package_name": "com.example.engazadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460966006824-9v1va62ua587ada5q404b4en1bo0991o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.engazadmin",
+            "certificate_hash": "52509cdb5e6630981eb39307b48b6c49a27318d9"
+          }
+        },
+        {
+          "client_id": "460966006824-1nv20ctd5nveip7d7uibr9bu2bb138df.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCag_eT1wzm1QLiTbZYGUellJkSe8dJ510"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460966006824-1nv20ctd5nveip7d7uibr9bu2bb138df.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

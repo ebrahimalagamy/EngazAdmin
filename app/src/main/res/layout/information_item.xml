@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+
+        >
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/image_information"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="100dp" />-->
+
+
+        <TextView
+            android:id="@+id/text_view_first_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- تجديد - رخصة المركبه"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text_view_description1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_first_title"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="الوصف"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#000"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text_view_description2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_description1"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="الوصف"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#000"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text_view_description3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_description2"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="الوصف"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#000"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text_view_description4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_description3"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="الوصف"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#000"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text_view_description5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_description4"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="الوصف"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#000"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text_view_second_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_description5"
+            android:text="- المستندات المطلوبة"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text_view_description6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_second_title"
+            android:layout_margin="5dp"
+            android:text="الوصف"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#000"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text_view_description7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_description6"
+            android:layout_margin="5dp"
+            android:text="الوصف"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#000"
+            tools:ignore="MissingConstraints" />
+
+        <!--        <Button-->
+        <!--            android:id="@+id/button_reservation"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_below="@id/text_view_description7"-->
+        <!--            android:layout_marginTop="5dp"-->
+        <!--            android:backgroundTint="@color/blue"-->
+        <!--            android:text="حجز معاد"-->
+        <!--            android:textColor="#ffffff" />-->
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
